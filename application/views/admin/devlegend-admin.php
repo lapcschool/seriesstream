@@ -33,21 +33,26 @@
   <!-- **********************************************************************************************************************************************************
       MAIN CONTENT
       *********************************************************************************************************************************************************** -->
+
   <div id="login-page">
     <div class="container">
-      <form class="form-login" action=" "  method="post">
+      <?php if ($this->session->flashdata('login_failed')): ?>
+        <?php echo '<p class ="alert alert-danger">'.$this->session->flashdata('login_failed').'</p>'; ?>
+      <?php endif; ?>
+      <?php echo form_open('Users/login'); ?>
+      <div class="form-login">
+
         <h2 class="form-login-heading" >LOGIN NOW </h2>
         <div class="login-wrap">
-          <input type="email" class="form-control" name="username" placeholder="User ID" required>
+          <input type="text" class="form-control" name="username" placeholder="Nombre de Usuario" required autofocus>
           <br>
-          <input type="password" class="form-control" name="password" placeholder="Password" requiered>
+          <input type="password" class="form-control" name="password" placeholder="Contraseña" requiered autofocus>
           <br>
-          <button class="btn btn-theme btn-block" href="<?php echo base_url(); ?>/home/admin/admin-home" type="submit" name="submit"><i class="fa fa-lock"></i> LOGIN</button>
+          <button class="btn btn-theme btn-block" type="submit" name="submit"><i class="fa fa-lock"></i> LOGIN</button>
           <hr>
-
-
         </div>
-      </form>
+        <?php echo form_close(); ?>
+      </div>
     </div>
   </div>
   <!-- js placed at the end of the document so the pages load faster -->

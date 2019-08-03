@@ -11,6 +11,9 @@
 
     public function admin($page)
     {
+      if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
+        redirect('Home/admin/devlegend-admin');
+      }
       if (!file_exists(APPPATH.'views/admin/'.$page.".php")) {
         show_404();
       }
@@ -21,7 +24,6 @@
         $this->load->view('admin/'.$page);
         $this->load->view('templates/footer-admin');
       }
-
     }
   }
 
