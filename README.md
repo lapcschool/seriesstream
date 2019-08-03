@@ -1,4 +1,4 @@
-#SerieSstream
+# SerieSstream
 SeriesStream
 
 Aplicación Web que nos permitirá ver/subir peliculas, series y trailers.
