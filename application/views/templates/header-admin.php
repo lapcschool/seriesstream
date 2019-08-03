@@ -73,7 +73,7 @@
               </a>
           </li>
           <li class="sub-menu">
-           <a href="<?php echo base_url(); ?>home/admin/admin-create">
+           <a href="<?php echo base_url(); ?>crud/create/admin-create">
             <i class="fa fa-plus"></i>
               <span>Crear Película</span>
               </a>

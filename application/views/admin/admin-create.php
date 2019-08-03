@@ -5,7 +5,12 @@
             <h4><i class="fa fa-angle-right"></i> Crear Película</h4>
             <div class="form-panel">
               <div class=" form">
-                <form class="cmxform form-horizontal style-form" id="commentForm" method="get" action="">
+                <?php echo validation_errors(); ?>
+                <?php if ($this->session->flashdata('creation_success')): ?>
+                  <?php echo '<p class ="alert alert-success">'.$this->session->flashdata('creation_success').'</p>'; ?>
+                <?php endif; ?>
+                <?php echo form_open('crud/create'); ?>
+                <div class="cmxform form-horizontal style-form" id="commentForm" method="get" action="">
                 <div class="form-group ">
                   <div class="  col-lg-9">
                           <label class="control-label col-md-4">Cargar Portada:</label>
@@ -23,7 +28,7 @@
                                 <span class="fileupload-exists"><i class="fa fa-undo"></i> Change</span>
                                 <input type="file" class="default" />
                                 </span>
-                                <a href="CreateMovie.php#" class="btn btn-theme04 fileupload-exists" data-dismiss="fileupload"><i class="fa fa-trash-o"></i> Remove</a>
+                                <a href="<?php base_url(); ?>/crud/create/admin-create" class="btn btn-theme04 fileupload-exists" data-dismiss="fileupload"><i class="fa fa-trash-o"></i> Remove</a>
                             </div>
                           </div>
 
@@ -58,10 +63,7 @@
                   <label for="Cdate" class="control-label col-lg-3">Seleccione fecha de estreno:</label>
                   <div class="col-md-3">
                     <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="01-01-2019" class="input-append date dpYears">
-                      <input type="date" readonly="" name="Cdate" size="16" class="form-control" required>
-                      <span class="input-group-btn add-on">
-                        <button class="btn btn-theme" type="button"><i class="fa fa-calendar"></i></button>
-                        </span>
+                      <input type="date" name="cdate" size="16" class="form-control" required>
                     </div>
 
                     </div>
@@ -76,7 +78,7 @@
                   <div class="form-group ">
                     <label for="Ccomentario" class="control-label col-lg-3">Descripcion de la Pelicula:</label>
                     <div class="col-lg-4">
-                      <textarea class="form-control " id="Ccomentario" name="comentario" required></textarea>
+                      <textarea class="form-control " id="Ccomentario" name="descripcion" required></textarea>
                     </div>
                   </div>
                   <div class="form-group">
@@ -85,7 +87,7 @@
                       <button class="btn btn-theme04" type="button">Cancel</button>
                     </div>
                   </div>
-                </form>
+                <?php echo form_close(); ?>
               </div>
             </div>
             <!-- /form-panel -->
