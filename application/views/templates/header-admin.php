@@ -87,7 +87,7 @@
 
           </li>
           <li class="sub-menu">
-             <a href="<?php echo base_url(); ?>home/admin/admin-eliminar">
+             <a href="<?php echo base_url(); ?>crud/borrar">
             <i class="fa fa-trash"></i>
               <span>Eliminar Película</span>
               </a>

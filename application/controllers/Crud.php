@@ -2,7 +2,16 @@
 
 class Crud extends CI_Controller
 {
+  public function borrar($page =''){
+    if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
+      redirect('Home/admin/devlegend-admin');
+    }
 
+    $data['trailer'] = null;
+    $this->load->view('templates/header-admin');
+    $this->load->view('admin/admin-eliminar', $data);
+    $this->load->view('templates/footer-admin');
+  }
 
   public function create($page = ''){
     if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
@@ -28,7 +37,7 @@ class Crud extends CI_Controller
 
   }
 
-  public function edit(){
+  public function edit($id = null){
     $data['trailer'] = null;
     $this->load->view('templates/header-admin');
     $this->load->view('admin/admin-modificar', $data);
@@ -53,8 +62,13 @@ class Crud extends CI_Controller
       $datos['trailer'] = $this->crud_model->read_trailer();
     }
     $this->load->view('templates/header-admin');
-    $this->load->view('admin/admin-modificar', $datos);
+    $this->load->view('admin/'.$page, $datos);
     $this->load->view('templates/footer-admin');
+  }
+
+  public function delete($id){
+    $this->crud_model->delete_trailer($id);
+    redirect('crud/borrar');
   }
 
 }

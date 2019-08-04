@@ -5,7 +5,7 @@
 
         <div class="row mt">
           <div class="col-lg-12">
-            <?php echo form_open('crud/buscar/'); ?>
+            <?php echo form_open('crud/buscar/admin-modificar'); ?>
                   <div class="cmxform form-horizontal style-form" id="commentForm">
                           <div class="form-group ">
                             <div class="col-lg-10">

@@ -39,6 +39,12 @@
       return $this->db->update('peliculas', $data);
     }
 
+    public function delete_trailer($id){
+      $this->db->where('id', $id);
+      $this->db->delete('peliculas');
+      return true;
+    }
+
   }
 
  ?>

@@ -6,7 +6,8 @@
         <div class="row mt">
           <div class="col-lg-12">
 
-                  <form class="cmxform form-horizontal style-form" id="commentForm" method="get" action="">
+            <?php echo form_open('crud/buscar/admin-buscar'); ?>
+                  <div class="cmxform form-horizontal style-form" id="commentForm">
                           <div class="form-group ">
                             <div class="col-lg-10">
                               <input class=" form-control" id="Mbusqueda" name="busqueda" minlength="2" type="text" placeholder="Buscar pelicula" required />
@@ -16,8 +17,7 @@
                             <button class="btn btn-theme03" type="submit">BUSCAR</button>
                           </div>
                         </div>
-                  </form>
-
+              <?php echo form_close(); ?>
           </div><br>
 
 
@@ -83,7 +83,7 @@
 
 
 
-                    </form>
+                    
                 </div>
            </div>
 
