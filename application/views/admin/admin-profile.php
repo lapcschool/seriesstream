@@ -6,10 +6,10 @@
             <div class="row content-panel">
               <div class="col-md-4 profile-text mt mb centered">
                 <div class="right-divider hidden-sm hidden-xs">
-                  <p>Yandel ()</p>
+                  <p>Yander Sanchez (2017-5379)</p>
                     <p>Erick David Rosario Alcantara (2017-5295)</p>
-                      <p>Luis Adolfo Pimentel Colon ()</p>
-                        <p>Oliver Rosario ()</p>
+                      <p>Luis Adolfo Pimentel Colón ()</p>
+                        <p>Oliver De Jesús Rosario Reyes()</p>
                           <p>Gregory Mota ()</p>
 
                 </div>
@@ -38,7 +38,7 @@
             <!-- /row -->
           </div>
           <!-- /col-lg-12 -->
-          
+
                       <!-- /col-md-6 -->
                     </div>
                     <!-- /row -->
