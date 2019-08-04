@@ -6,7 +6,11 @@
   <!-- Basic Page Needs
 	================================================== -->
   <meta charset="utf-8">
+<<<<<<< HEAD
+  <title>TrailersStream</title>
+=======
   <title>BizCraft - Responsive Html5 Template</title>
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -16,15 +20,44 @@
 
   <!-- Favicons
 	================================================== -->
+<<<<<<< HEAD
+  <link rel="icon" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico">
+=======
   <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" />
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
   <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
 
   <!-- CSS
 	================================================== -->
 
   <!-- Bootstrap -->
+<<<<<<< HEAD
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/bootstrap.min.css">
+  <!-- Template styles-->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/style.css">
+  <!-- Responsive styles-->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/responsive.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/font-awesome.min.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/animate.css">
+  <!-- Prettyphoto -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/prettyPhoto.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/owl.carousel.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/owl.theme.css">
+  <!-- Flexslider -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/flexslider.css">
+  <!-- Flexslider -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/cd-hero.css">
+  <!-- Style Swicther -->
+  <link id="style-switch" href="<?php echo base_url(); ?>assets/TrailerStream/css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+=======
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
   <!-- Template styles-->
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
@@ -45,6 +78,7 @@
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/cd-hero.css">
   <!-- Style Swicther -->
   <link id="style-switch" href="<?php echo base_url(); ?>assets/css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
   <!--[if lt IE 9]>
@@ -70,18 +104,30 @@
               <span class="icon-bar"></span>
             </button>
             <div class="navbar-brand navbar-bg">
+<<<<<<< HEAD
+              <a href="<?php echo base_url(); ?>">
+                <img class="img-responsive" src="<?php echo base_url(); ?>assets/TrailerStream/images/logo.png" alt="logo">
+=======
               <a href="index.html">
                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/logo.png" alt="logo">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
               </a>
             </div>
           </div>
           <!--/ Logo end -->
           <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
+              <li class="active"><a href="<?php echo base_url(); ?>">Inicio</a></li>
+              <li><a href="<?php echo base_url(); ?>home/trailers">Trailers</a></li>
+              <li><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
+              <li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
+=======
               <li class="active"><a href="index.html">Inicio</a></li>
               <li><a href="team.html">Trailers</a></li>
               <li><a href="team.html">Nosotros</a></li>
               <li><a href="contact.html">Contacto</a></li>
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
             </ul>
           </nav>
           <!--/ Navigation end -->
@@ -98,7 +144,11 @@
         <ul class="cd-hero-slider">
           <li class="selected">
             <div class="overlay2">
+<<<<<<< HEAD
+              <img class="" src="<?php echo base_url(); ?>assets/TrailerStream/images/slider/bg1.jpg" alt="slider">
+=======
               <img class="" src="<?php echo base_url(); ?>assets/images/slider/bg1.jpg" alt="slider">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
             </div>
             <div class="cd-full-width">
               <h2>Los muertos no mueren</h2>
@@ -108,7 +158,11 @@
           </li>
           <li>
             <div class="overlay2">
+<<<<<<< HEAD
+              <img class="" src="<?php echo base_url(); ?>assets/TrailerStream/images/slider/bg2.jpg" alt="slider">
+=======
               <img class="" src="<?php echo base_url(); ?>assets/images/slider/bg2.jpg" alt="slider">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
             </div>
             <div class="cd-half-width">
               <h2>Alta vida</h2>
@@ -117,15 +171,26 @@
             </div> <!-- .cd-half-width -->
 
             <div class="cd-half-width cd-img-container">
+<<<<<<< HEAD
+              <img src="<?php echo base_url(); ?>assets/TrailerStream/images/slider/bg-thumb1.png" alt="">
+=======
               <img src="<?php echo base_url(); ?>assets/images/slider/bg-thumb1.png" alt="">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
             </div> <!-- .cd-half-width.cd-img-container -->
           </li>
           <li>
             <div class="overlay2">
+<<<<<<< HEAD
+              <img class="" src="<?php echo base_url(); ?>assets/TrailerStream/images/slider/bg3.jpg" alt="slider">
+            </div>
+            <div class="cd-half-width cd-img-container img-right">
+              <img src="<?php echo base_url(); ?>assets/TrailerStream/images/slider/bg-thumb2.png" alt="">
+=======
               <img class="" src="<?php echo base_url(); ?>assets/images/slider/bg3.jpg" alt="slider">
             </div>
             <div class="cd-half-width cd-img-container img-right">
               <img src="<?php echo base_url(); ?>assets/images/slider/bg-thumb2.png" alt="">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
             </div> <!-- .cd-half-width.cd-img-container -->
             <div class="cd-half-width">
               <h2>Juego de niños</h2>
@@ -172,7 +237,11 @@
                 <p>Aquí encontrarás todos los trailers de tus peliculas favoritas...</p>
                 <br />
 
+<<<<<<< HEAD
+                <span class=""><img class="img-responsive" src="<?php echo base_url(); ?>assets/TrailerStream/images/logo.png" alt="logo"></span>
+=======
                 <span class=""><img class="img-responsive" src="<?php echo base_url(); ?>assets/images/logo.png" alt="logo"></span>
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
 
                 <p><strong>TrailerStream</strong> tu mejor elección para ver Trailers.</p>
               </div>
@@ -183,4 +252,8 @@
       </div>
       <!--/ Container end -->
     </section>
+<<<<<<< HEAD
     <!--/ Service box end -->
+=======
+    <!--/ Service box end -->
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8

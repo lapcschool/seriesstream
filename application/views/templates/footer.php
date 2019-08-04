@@ -7,6 +7,22 @@
 				<h3 class="widget-title">Colaboradores</h3>
 				<div class="img-gallery">
 					<div class="img-container">
+<<<<<<< HEAD
+						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/1.jpg">
+							<img src="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/1.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/2.jpg">
+							<img src="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/2.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/3.jpg">
+							<img src="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/3.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/4.jpg">
+							<img src="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/4.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/5.jpg">
+							<img src="<?php echo base_url(); ?>assets/TrailerStream/images/gallery/5.jpg" alt="">
+=======
 						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/images/gallery/1.jpg">
 							<img src="<?php echo base_url(); ?>assets/images/gallery/1.jpg" alt="">
 						</a>
@@ -21,6 +37,7 @@
 						</a>
 						<a class="thumb-holder" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/images/gallery/5.jpg">
 							<img src="<?php echo base_url(); ?>assets/images/gallery/5.jpg" alt="">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
 						</a>
 					</div>
 				</div>
@@ -94,6 +111,36 @@
 	================================================== -->
 
 <!-- initialize jQuery Library -->
+<<<<<<< HEAD
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.js"></script>
+<!-- Bootstrap jQuery -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/bootstrap.min.js"></script>
+<!-- Style Switcher -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/style-switcher.js"></script>
+<!-- Owl Carousel -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/owl.carousel.js"></script>
+<!-- PrettyPhoto -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.prettyPhoto.js"></script>
+<!-- Bxslider -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.flexslider.js"></script>
+<!-- CD Hero slider -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/cd-hero.js"></script>
+<!-- Isotope -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/isotope.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/ini.isotope.js"></script>
+<!-- Wow Animation -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/wow.min.js"></script>
+<!-- SmoothScroll -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/smoothscroll.js"></script>
+<!-- Eeasing -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.easing.1.3.js"></script>
+<!-- Counter -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.counterup.min.js"></script>
+<!-- Waypoints -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/waypoints.min.js"></script>
+<!-- Template custom -->
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/custom.js"></script>
+=======
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
 <!-- Bootstrap jQuery -->
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
@@ -122,6 +169,7 @@
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/waypoints.min.js"></script>
 <!-- Template custom -->
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/custom.js"></script>
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
 </div><!-- Body inner end -->
 </body>
 

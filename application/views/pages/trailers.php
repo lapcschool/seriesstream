@@ -6,7 +6,11 @@
   <!-- Basic Page Needs
 	================================================== -->
   <meta charset="utf-8">
+<<<<<<< HEAD
+  <title>TrailersStream</title>
+=======
   <title>BizCraft - Responsive Html5 Template</title>
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -16,15 +20,44 @@
 
   <!-- Favicons
 	================================================== -->
+<<<<<<< HEAD
+  <link rel="icon" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="<?php echo base_url(); ?>assets/TrailerStream/images/favicon.ico">
+=======
   <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" />
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
   <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
 
   <!-- CSS
 	================================================== -->
 
   <!-- Bootstrap -->
+<<<<<<< HEAD
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/bootstrap.min.css">
+  <!-- Template styles-->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/style.css">
+  <!-- Responsive styles-->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/responsive.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/font-awesome.min.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/animate.css">
+  <!-- Prettyphoto -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/prettyPhoto.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/owl.carousel.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/owl.theme.css">
+  <!-- Flexslider -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/flexslider.css">
+  <!-- Flexslider -->
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/TrailerStream/css/cd-hero.css">
+  <!-- Style Swicther -->
+  <link id="style-switch" href="<?php echo base_url(); ?>assets/TrailerStream/css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+=======
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
   <!-- Template styles-->
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
@@ -45,6 +78,7 @@
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/cd-hero.css">
   <!-- Style Swicther -->
   <link id="style-switch" href="<?php echo base_url(); ?>assets/css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
   <!--[if lt IE 9]>
@@ -69,18 +103,30 @@
               <span class="icon-bar"></span>
             </button>
             <div class="navbar-brand navbar-bg">
+<<<<<<< HEAD
+              <a href="<?php echo base_url(); ?>">
+                <img class="img-responsive" src="<?php echo base_url(); ?>assets/TrailerStream/images/logo.png" alt="logo">
+=======
               <a href="index.html">
                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/logo.png" alt="logo">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
               </a>
             </div>
           </div>
           <!--/ Logo end -->
           <nav class="collapse navbar-collapse clearfix" role="navigation">
             <ul class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
+              <li class="active"><a href="<?php echo base_url(); ?>">Inicio</a></li>
+              <li><a href="<?php echo base_url(); ?>home/trailers">Trailers</a></li>
+              <li><a href="<?php echo base_url(); ?>home/nosotros">Nosotros</a></li>
+              <li><a href="<?php echo base_url(); ?>home/contacto">Contacto</a></li>
+=======
               <li class="active"><a href="index.html">Inicio</a></li>
               <li><a href="team.html">Trailers</a></li>
               <li><a href="team.html">Nosotros</a></li>
               <li><a href="contact.html">Contacto</a></li>
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
             </ul>
           </nav>
           <!--/ Navigation end -->
@@ -92,12 +138,20 @@
     <!--/ Header end -->
 
     <div id="banner-area">
+<<<<<<< HEAD
+      <img src="<?php echo base_url(); ?>assets/TrailerStream/images/banner/banner2.jpg" alt="" />
+=======
       <img src="<?php echo base_url(); ?>assets/images/banner/banner2.jpg" alt="" />
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
       <div class="parallax-overlay"></div>
       <!-- Subpage title start -->
       <div class="banner-title-content">
         <div class="text-center">
+<<<<<<< HEAD
+        <h2><?php echo $title?></h2>
+=======
           <h2>Trailers</h2>
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
         </div>
       </div><!-- Subpage title end -->
     </div><!-- Banner area end -->
@@ -119,10 +173,17 @@
           <div class="col-sm-3 portfolio-static-item">
             <div class="grid">
               <figure class="effect-oscar">
+<<<<<<< HEAD
+                <img src="<?php echo base_url(); ?>assets/TrailerStream/images/portfolio/portfolio1.jpg" alt="">
+                <figcaption>
+                  <a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
+                  <a class="view icon-pentagon" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/TrailerStream/images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>
+=======
                 <img src="<?php echo base_url(); ?>assets/images/portfolio/portfolio1.jpg" alt="">
                 <figcaption>
                   <a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
                   <a class="view icon-pentagon" data-rel="prettyPhoto" href="<?php echo base_url(); ?>assets/images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
                 </figcaption>
               </figure>
               <div class="portfolio-static-desc">
@@ -160,7 +221,11 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <div class="footer-logo">
+<<<<<<< HEAD
+              <img src="<?php echo base_url(); ?>assets/TrailerStream/images/logo.png" width="170px" alt="logo">
+=======
               <img src="<?php echo base_url(); ?>assets/images/logo.png" width="170px" alt="logo">
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
             </div>
             <div class="gap-20"></div>
             <ul class="dark unstyled">
@@ -196,6 +261,40 @@
   ================================================== -->
 
     <!-- initialize jQuery Library -->
+<<<<<<< HEAD
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/bootstrap.min.js"></script>
+    <!-- Style Switcher -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/style-switcher.js"></script>
+    <!-- Owl Carousel -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/owl.carousel.js"></script>
+    <!-- PrettyPhoto -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.prettyPhoto.js"></script>
+    <!-- Bxslider -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.flexslider.js"></script>
+    <!-- CD Hero slider -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/cd-hero.js"></script>
+    <!-- Isotope -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/isotope.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/ini.isotope.js"></script>
+    <!-- Wow Animation -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/wow.min.js"></script>
+    <!-- SmoothScroll -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/smoothscroll.js"></script>
+    <!-- Eeasing -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.easing.1.3.js"></script>
+    <!-- Counter -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/jquery.counterup.min.js"></script>
+    <!-- Waypoints -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/waypoints.min.js"></script>
+    <!-- Template custom -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/TrailerStream/js/custom.js"></script>
+  </div><!-- Body inner end -->
+</body>
+
+</html>
+=======
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
     <!-- Bootstrap jQuery -->
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
@@ -228,3 +327,4 @@
 </body>
 
 </html>
+>>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
