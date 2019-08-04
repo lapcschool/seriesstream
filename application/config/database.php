@@ -76,16 +76,10 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-<<<<<<< HEAD
 	'port' => '3307',
 	'username' => 'root',
 	'password' => '',
 	'database' => 'trailerstream',
-=======
-	'username' => '',
-	'password' => '',
-	'database' => '',
->>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
