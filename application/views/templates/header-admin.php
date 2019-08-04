@@ -46,7 +46,7 @@
         <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
       </div>
       <!--logo start-->
-         <a href="<?php echo base_url(); ?>/home/admin/admin-home" class="logo"><b>ADMIN-AREA<span> TRAILERSTREAM</span></b></a>
+         <a href="<?php echo base_url(); ?>home/admin/admin-home" class="logo"><b>ADMIN-AREA<span> TRAILERSTREAM</span></b></a>
       <!--logo end-->
 
       <div class="top-menu">
@@ -64,7 +64,7 @@
       <div id="sidebar" class="nav-collapse ">
         <!-- sidebar menu start-->
         <ul class="sidebar-menu" id="nav-accordion">
-          <p class="centered"><a href="<?php echo base_url(); ?>/home/admin/admin-profile"><img src="<?php echo base_url(); ?>assets/img/ui-sam.jpg" class="img-circle" width="80"></a></p>
+          <p class="centered"><a href="<?php echo base_url(); ?>home/admin/admin-profile"><img src="<?php echo base_url(); ?>assets/img/ui-sam.jpg" class="img-circle" width="80"></a></p>
          <h5 class="centered">DEV-LEGEN -ADMIN</h5>
           <li class="mt">
             <a class="sub-menu" href="<?php echo base_url(); ?>home/admin/admin-home">
@@ -80,7 +80,7 @@
 
           </li>
           <li class="sub-menu">
-            <a href="<?php echo base_url(); ?>home/admin/admin-modificar">
+            <a href="<?php echo base_url(); ?>crud/edit">
             <i class="fa fa-edit"></i>
               <span>Modificar Película</span>
               </a>

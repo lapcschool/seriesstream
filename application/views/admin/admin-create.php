@@ -9,34 +9,14 @@
                 <?php if ($this->session->flashdata('creation_success')): ?>
                   <?php echo '<p class ="alert alert-success">'.$this->session->flashdata('creation_success').'</p>'; ?>
                 <?php endif; ?>
+
                 <?php echo form_open('crud/create'); ?>
                 <div class="cmxform form-horizontal style-form" id="commentForm" method="get" action="">
-                <div class="form-group ">
-                  <div class="  col-lg-9">
-                          <label class="control-label col-md-4">Cargar Portada:</label>
-                          <div class="col-md-6">
-                            <div class="fileupload fileupload-new" data-provides="fileupload">
-
-                              <div class="fileupload-new thumbnail" style="width: 200px; height: 150px;">
-                                <img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&text=no+image" alt="" />
-                              </div>
-                              <div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 200px; max-height: 150px; line-height: 20px;"></div>
-
-                              <div>
-                                <span class="btn btn-theme02 btn-file">
-                                  <span class="fileupload-new"><i class="fa fa-paperclip"></i> Select image</span>
-                                <span class="fileupload-exists"><i class="fa fa-undo"></i> Change</span>
-                                <input type="file" class="default" />
-                                </span>
-                                <a href="<?php base_url(); ?>/crud/create/admin-create" class="btn btn-theme04 fileupload-exists" data-dismiss="fileupload"><i class="fa fa-trash-o"></i> Remove</a>
-                            </div>
-                          </div>
-
-
-                        </div>
-                  </div>
-
-
+                  <div class="form-group ">
+                    <label for="Ctitulo" class="control-label col-lg-3">URL de la portada:</label>
+                    <div class="col-lg-4">
+                      <input class="form-control" id="Curl" name="portada" minlength="2" type="text" required/>
+                    </div>
                   </div>
                   <div class="form-group ">
                     <label for="Ctitulo" class="control-label col-lg-3">Titulo de la Pelicula:</label>
@@ -84,7 +64,6 @@
                   <div class="form-group">
                     <div class="col-lg-offset-3  col-lg-4">
                       <button class="btn btn-theme03" type="submit">Guardar</button>
-                      <button class="btn btn-theme04" type="button">Cancel</button>
                     </div>
                   </div>
                 <?php echo form_close(); ?>

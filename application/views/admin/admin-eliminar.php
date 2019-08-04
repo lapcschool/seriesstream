@@ -26,22 +26,13 @@
            <div class="form-panel">
                <div class=" form">
                    <form class="cmxform form-horizontal style-form" id="commentForm" method="get" action="">
-                      <div class="form-group ">
-                            <div class="  col-lg-9">
-                              <label class="control-label col-md-4">Cargar Portada:</label>
-                              <div class="col-md-6">
-                                <div class="fileupload fileupload-new" data-provides="fileupload">
+                     <div class="form-group ">
+                     <label for="Ctitulo" class="control-label col-lg-3">URL de la portada:</label>
+                     <div class="col-lg-4">
+                       <input class=" form-control" id="Curl" name="portada" minlength="2" type="text" disabled/>
+                     </div>
+                   </div>
 
-                                  <div class="fileupload-new thumbnail" style="width: 200px; height: 150px;">
-                                    <img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&text=no+image" alt="" />
-                                  </div>
-                                  <div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 200px; max-height: 150px; line-height: 20px;"></div>
-
-                              </div>
-
-                    </div>
-                    </div>
-                    </div>
                     <div class="form-group ">
                     <label for="Ctitulo" class="control-label col-lg-3">Titulo de la Pelicula:</label>
                     <div class="col-lg-4">
@@ -91,7 +82,6 @@
                   <div class="form-group">
                     <div class="col-lg-offset-3  col-lg-4">
                       <button class="btn btn-theme03" type="submit">Eliminar</button>
-                      <button class="btn btn-theme04" type="button">Cancel</button>
                     </div>
                   </div>
 

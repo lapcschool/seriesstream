@@ -2,6 +2,8 @@
 
 class Crud extends CI_Controller
 {
+
+
   public function create($page = ''){
     if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
       redirect('Home/admin/devlegend-admin');
@@ -26,16 +28,33 @@ class Crud extends CI_Controller
 
   }
 
-  public function read($page = ''){
+  public function edit(){
+    $data['trailer'] = null;
+    $this->load->view('templates/header-admin');
+    $this->load->view('admin/admin-modificar', $data);
+    $this->load->view('templates/footer-admin');
+  }
+
+  public function update(){
+    $this->crud_model->update_trailer();
+    redirect('crud/edit');
+  }
+
+  public function buscar($page =''){
     if ($page != 'devlegend-admin' && !$this->session->userdata('logged_in')) {
       redirect('Home/admin/devlegend-admin');
     }
-    $data['trailer'] = $this->crud_model->read_trailers($page);
-
-    $this->load->view('admin/header-admin');
-    $this->load->view();
-    $this->load->view('admin/footer-admin');
-
+    $this->form_validation->set_rules('busqueda', 'Busqueda', 'required');
+    if ($this->form_validation->run() === FALSE) {
+      $this->load->view('templates/header-admin');
+      $this->load->view('admin/admin-modificar');
+      $this->load->view('templates/footer-admin');
+    }else {
+      $datos['trailer'] = $this->crud_model->read_trailer();
+    }
+    $this->load->view('templates/header-admin');
+    $this->load->view('admin/admin-modificar', $datos);
+    $this->load->view('templates/footer-admin');
   }
 
 }
