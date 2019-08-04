@@ -29,4 +29,3 @@ Colaboradores
 -  `Yander Sánchez <https://github.com/zardecs>`_
 -  `Erick David Rosario Alcantara <https://github.com/erickproyect>`_
 -  `Oliver Rosario <https://github.com/oliverrosario>`_
->>>>>>> ed7a1ac433158e17e042d1d147cc64e30901f5a8
